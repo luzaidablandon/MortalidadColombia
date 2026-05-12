@@ -231,7 +231,11 @@ fig_edad.update_layout(xaxis_tickangle=-30)
 # ============================================================
 # 4. APP DASH — LAYOUT (estructura de la página web)
 # ============================================================
-app = Dash(__name__)
+app = Dash(
+    __name__,
+    title="Mortalidad Colombia 2019 - Luz Blandón",
+    meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}]  
+    
 server = app.server  # necesario para Render
 
 app.layout = html.Div([
