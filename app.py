@@ -236,6 +236,7 @@ app = Dash(
     title="Mortalidad Colombia 2019 - Luz Blandón",
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}]  
     
+)
 server = app.server  # necesario para Render
 
 app.layout = html.Div([
@@ -245,10 +246,10 @@ app.layout = html.Div([
         html.H1("Mortalidad en Colombia 2019",
                 style={"color": "white", "textAlign": "center",
                        "margin": "0", "padding": "20px"}),
-         html.H2("Luz Aida Blandón",
+             html.H2("Luz Aida Blandón",
                 style={"color": "white", "textAlign": "center",
                        "margin": "0", "padding": "20px"}),
-        html.P("Análisis interactivo de datos DANE — 244.355 registros",
+        html.P("Análisis interactivo de datos DANE — 244.355 datos regis",
                style={"color": "#A8DADC", "textAlign": "center", "margin": "0"})
     ], style={"backgroundColor": "#1D3557", "paddingBottom": "15px"}),
 
