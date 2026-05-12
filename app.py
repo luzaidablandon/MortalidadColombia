@@ -245,6 +245,9 @@ app.layout = html.Div([
         html.H1("Mortalidad en Colombia 2019",
                 style={"color": "white", "textAlign": "center",
                        "margin": "0", "padding": "20px"}),
+         html.H2("Luz Aida Blandón",
+                style={"color": "white", "textAlign": "center",
+                       "margin": "0", "padding": "20px"}),
         html.P("Análisis interactivo de datos DANE — 244.355 registros",
                style={"color": "#A8DADC", "textAlign": "center", "margin": "0"})
     ], style={"backgroundColor": "#1D3557", "paddingBottom": "15px"}),
